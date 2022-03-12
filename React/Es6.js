@@ -20,8 +20,16 @@ const doMath = (num1, num2) => {
 }
 
 //Spread Operator
-const newNumbers = numbers;
+const newNumbers = [...numbers];
 numbers.push(99);
 numbers.push(99);
 numbers.push(99);
 console.log(newNumber);
+console.log(newNumbers);
+
+//Create a new array from an older array add an element
+const currentNumbers = [...numbers, 55];
+console.log(numbers);
+console.log(newNumbers);
+console.log(currentNumbers);
+
