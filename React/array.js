@@ -6,6 +6,10 @@ const products = [
     {name: 'walton', price: 23400, brand: 'lenovo', color: 'gray'},
 ];
 
+
+
+
+
 price = products.map(product => product.price);
 color = products.map(product => product.color);
 brand = products.map(product => product.price);
